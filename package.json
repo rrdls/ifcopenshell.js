@@ -1,0 +1,27 @@
+{
+  "name": "technical-challenge-certi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "",
+    "start": "npx tsc src/main.ts --outDir dist && node dist/main.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "jsonschema": "^1.4.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "@types/uuid": "^9.0.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
